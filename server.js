@@ -1,43 +1,33 @@
-//ESTE CODIGO NO AFECTARA SU BOT, SCRIPT DE ARRANQUE
-
-const http = require("http");
-const express = require("express");
-const app = express();
-
-app.use(express.static("public"));
-
-app.get("/", function(request, response) {
-  response.sendFile(__dirname + "/views/index.html");
-});
-
-app.get("/", (request, response) => {
-  response.sendStatus(200);
-});
-
-app.listen(process.env.PORT);
-
-setInterval(() => {
-  http.get(`http://${process.env.PROJECT_DOMAIN}.glitch.me/`);
-}, 100000);
-
-//DESDE AQUI EMPIEZA A ESCRIBIR EL CODIGO PARA SU BOT
+require('http').createServer((req, res) => res.end(`¡El bot esta online como: TutoBot`)).listen(3000);
 
 const Discord = require("discord.js");
 const client = new Discord.Client();
-const config = require("./util.js").getConfig[1];
-const util = require('./util.js');
 const fs = require('fs');
+const { nivelesFunc } = require("./niveles.js")
+const interchat_owner = require('./interchats/owner.js');
+const interchat_user = require('./interchats/user.js');
+const interchat_admin = require('./interchats/admin.js');
+const interchat_blacklist = require('./interchats/blacklist.js')
+const cooldowniveles = new Map()
+const db_niveles = require('megadb');
+let { readdirSync } = require('fs');
 
-for(let file of fs.readdirSync('./events')){
-  if(file.endsWith('.js')){
-    let fileName = file.substring(0, file.length - 3);
+const DBL = require("dblapi.js");
+const dbl = new DBL(process.env.dblToken, { webhookPort: 5000, webhookAuth: process.env.dblWebhookPass });
+// Optional events
+dbl.on('posted', () => {
+  console.log(`¡Server count posteado a DBL!`);
+})
 
-    let fileContents = require(`./events/${file}`);
+dbl.on('error', e => {
+ console.log(`Oops! ${e}`);
+})
 
-    client.on(fileName, fileContents.bind(null, client));
+dbl.webhook.on('ready', hook => {
+  console.log(`Webhook running at http://${hook.hostname}:${hook.port}${hook.path}`);
+});
+dbl.webhook.on('vote', vote => {
+  console.log(`User with ID ${vote.user} just voted!`);
+});
 
-    delete require.cache[require.resolve(`./events/${file}`)]
-  }
-}
-
-client.login(process.env.TKN);
+client.login(process.env.PTO_TKN_XD_JAJA_LOL);

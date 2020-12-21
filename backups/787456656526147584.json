@@ -1,0 +1,2979 @@
+{
+    "name": "El servidor de 🎃 Cooky 🎃",
+    "region": "us-east",
+    "verificationLevel": "NONE",
+    "explicitContentFilter": "DISABLED",
+    "defaultMessageNotifications": "ALL",
+    "afk": null,
+    "widget": {
+        "channel": null
+    },
+    "channels": {
+        "categories": [
+            {
+                "name": "staff",
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": 0,
+                        "deny": 1024
+                    },
+                    {
+                        "roleName": "Novato-BR",
+                        "allow": 0,
+                        "deny": 1024
+                    },
+                    {
+                        "roleName": "Veterano-BR",
+                        "allow": 0,
+                        "deny": 1024
+                    },
+                    {
+                        "roleName": "Elite-BR",
+                        "allow": 0,
+                        "deny": 1024
+                    },
+                    {
+                        "roleName": "Profesional-BR",
+                        "allow": 0,
+                        "deny": 1024
+                    },
+                    {
+                        "roleName": "Maestro-BR",
+                        "allow": 0,
+                        "deny": 1024
+                    },
+                    {
+                        "roleName": "Leyenda-BR",
+                        "allow": 0,
+                        "deny": 1024
+                    },
+                    {
+                        "roleName": "Novato-MJ",
+                        "allow": 0,
+                        "deny": 1024
+                    },
+                    {
+                        "roleName": "Veterano-MJ",
+                        "allow": 0,
+                        "deny": 1024
+                    },
+                    {
+                        "roleName": "Elite-MJ",
+                        "allow": 0,
+                        "deny": 1024
+                    },
+                    {
+                        "roleName": "Profesional-MJ",
+                        "allow": 0,
+                        "deny": 1024
+                    },
+                    {
+                        "roleName": "Maestro-MJ",
+                        "allow": 0,
+                        "deny": 1024
+                    },
+                    {
+                        "roleName": "Leyenda-MJ",
+                        "allow": 0,
+                        "deny": 1024
+                    },
+                    {
+                        "roleName": "Miembros",
+                        "allow": 0,
+                        "deny": 1024
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "text",
+                        "name": "𝙶𝚎𝚗𝚛𝚊𝚕",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "staff",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 0,
+                                "deny": 1024
+                            },
+                            {
+                                "roleName": "Miembros",
+                                "allow": 0,
+                                "deny": 1024
+                            },
+                            {
+                                "roleName": "🤖BOSITOS🤖",
+                                "allow": 522304,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "⚡️MODERADORES⚡️",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "🧨ADMINISTRADOR🧨",
+                                "allow": 1024,
+                                "deny": 0
+                            }
+                        ],
+                        "messages": [
+                            {
+                                "username": "Cooky.",
+                                "avatar": "https://cdn.discordapp.com/avatars/528860743437910016/9b8db7d6c0d3c56377c17f617842b1e6.webp",
+                                "content": "t!backup create",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Cooky.",
+                                "avatar": "https://cdn.discordapp.com/avatars/528860743437910016/9b8db7d6c0d3c56377c17f617842b1e6.webp",
+                                "content": "t!backup",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Cooky.",
+                                "avatar": "https://cdn.discordapp.com/avatars/528860743437910016/9b8db7d6c0d3c56377c17f617842b1e6.webp",
+                                "content": "t!coins",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Cooky.",
+                                "avatar": "https://cdn.discordapp.com/avatars/528860743437910016/9b8db7d6c0d3c56377c17f617842b1e6.webp",
+                                "content": "#canal-de-auditoria",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Cooky.",
+                                "avatar": "https://cdn.discordapp.com/avatars/528860743437910016/9b8db7d6c0d3c56377c17f617842b1e6.webp",
+                                "content": "interchat",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "TutoBot",
+                                "avatar": "https://cdn.discordapp.com/avatars/741314725916180480/8c59ab91fd3385190edf2c6423215ab7.webp",
+                                "content": "",
+                                "embeds": [
+                                    {
+                                        "type": "rich",
+                                        "description": "Envia un mensaje con el nombre del canal que quieres que sea el interchat\nEj:\n\"interchat\"",
+                                        "timestamp": null,
+                                        "color": 9114050,
+                                        "fields": [],
+                                        "thumbnail": null,
+                                        "image": null,
+                                        "author": {
+                                            "name": "Cooky.#8953"
+                                        },
+                                        "footer": {
+                                            "text": "El servidor de 🎃 Cooky 🎃"
+                                        }
+                                    }
+                                ],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Cooky.",
+                                "avatar": "https://cdn.discordapp.com/avatars/528860743437910016/9b8db7d6c0d3c56377c17f617842b1e6.webp",
+                                "content": "t!setup",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "TutoBot",
+                                "avatar": "https://cdn.discordapp.com/avatars/741314725916180480/8c59ab91fd3385190edf2c6423215ab7.webp",
+                                "content": "",
+                                "embeds": [
+                                    {
+                                        "type": "rich",
+                                        "description": "**<:descarga4:787455122006605824> Invite del bot** ➤ [**Invitame**](https://discord.com/oauth2/authorize?client_id=741314725916180480&scope=bot&permissions=8)\n**<:descarga3:787455121997955072> Invite de top.gg** ➤ [**Top.gg**](https://top.gg/bot/741314725916180480)",
+                                        "timestamp": null,
+                                        "color": 10831816,
+                                        "fields": [],
+                                        "thumbnail": null,
+                                        "image": null,
+                                        "author": null,
+                                        "footer": null
+                                    }
+                                ],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Cooky.",
+                                "avatar": "https://cdn.discordapp.com/avatars/528860743437910016/9b8db7d6c0d3c56377c17f617842b1e6.webp",
+                                "content": "t!invite",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Cooky.",
+                                "avatar": "https://cdn.discordapp.com/avatars/528860743437910016/9b8db7d6c0d3c56377c17f617842b1e6.webp",
+                                "content": "\\<:descarga4:787455122006605824>",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Cooky.",
+                                "avatar": "https://cdn.discordapp.com/avatars/528860743437910016/9b8db7d6c0d3c56377c17f617842b1e6.webp",
+                                "content": "\\<:descarga3:787455121997955072>",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "TutoBot",
+                                "avatar": "https://cdn.discordapp.com/avatars/741314725916180480/8c59ab91fd3385190edf2c6423215ab7.webp",
+                                "content": "",
+                                "embeds": [
+                                    {
+                                        "type": "rich",
+                                        "description": "**Invite del bot** ➤ [**Invitame**](https://discord.com/oauth2/authorize?client_id=741314725916180480&scope=bot&permissions=8)\n**:dbl: Invite de top.gg** ➤ [**Top.gg**](https://top.gg/bot/741314725916180480)",
+                                        "timestamp": null,
+                                        "color": 2084992,
+                                        "fields": [],
+                                        "thumbnail": null,
+                                        "image": null,
+                                        "author": null,
+                                        "footer": null
+                                    }
+                                ],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Cooky.",
+                                "avatar": "https://cdn.discordapp.com/avatars/528860743437910016/9b8db7d6c0d3c56377c17f617842b1e6.webp",
+                                "content": "t!invite",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Cooky.",
+                                "avatar": "https://cdn.discordapp.com/avatars/528860743437910016/9b8db7d6c0d3c56377c17f617842b1e6.webp",
+                                "content": "t!raid",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Cooky.",
+                                "avatar": "https://cdn.discordapp.com/avatars/528860743437910016/9b8db7d6c0d3c56377c17f617842b1e6.webp",
+                                "content": "a!raid",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Cooky.",
+                                "avatar": "https://cdn.discordapp.com/avatars/528860743437910016/9b8db7d6c0d3c56377c17f617842b1e6.webp",
+                                "content": "a!raid",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Cooky.",
+                                "avatar": "https://cdn.discordapp.com/avatars/528860743437910016/9b8db7d6c0d3c56377c17f617842b1e6.webp",
+                                "content": "t!raid",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "TutoBot",
+                                "avatar": "https://cdn.discordapp.com/avatars/741314725916180480/8c59ab91fd3385190edf2c6423215ab7.webp",
+                                "content": "",
+                                "embeds": [
+                                    {
+                                        "title": "<:emoji:785994785889845298> Prefix cambiado!",
+                                        "type": "rich",
+                                        "description": "Prefix antiguo: `aññañañañ`\nPrefix nuevo: `t!`",
+                                        "timestamp": null,
+                                        "fields": [],
+                                        "thumbnail": null,
+                                        "image": null,
+                                        "author": null,
+                                        "footer": null
+                                    }
+                                ],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Cooky.",
+                                "avatar": "https://cdn.discordapp.com/avatars/528860743437910016/9b8db7d6c0d3c56377c17f617842b1e6.webp",
+                                "content": "aññañañañchangeprefix t!",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "TutoBot",
+                                "avatar": "https://cdn.discordapp.com/avatars/741314725916180480/8c59ab91fd3385190edf2c6423215ab7.webp",
+                                "content": "",
+                                "embeds": [
+                                    {
+                                        "title": "<:emoji:785994785889845298> Prefix cambiado!",
+                                        "type": "rich",
+                                        "description": "Prefix antiguo: `t!`\nPrefix nuevo: `aññañañañ`",
+                                        "timestamp": null,
+                                        "fields": [],
+                                        "thumbnail": null,
+                                        "image": null,
+                                        "author": null,
+                                        "footer": null
+                                    }
+                                ],
+                                "files": [],
+                                "pinned": false
+                            }
+                        ],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "canal-de-auditoria",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "staff",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 0,
+                                "deny": 1024
+                            },
+                            {
+                                "roleName": "🤖BOSITOS🤖",
+                                "allow": 134144,
+                                "deny": 0
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "comandos-simple-pool",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "staff",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 0,
+                                "deny": 1024
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    }
+                ]
+            },
+            {
+                "name": "⚡información ⚡",
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": 0,
+                        "deny": 1049600
+                    },
+                    {
+                        "roleName": "🧨ADMINISTRADOR🧨",
+                        "allow": 1049600,
+                        "deny": 0
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "text",
+                        "name": "『👥』𝐁𝐈𝐄𝐍𝐕𝐄𝐍𝐈𝐃𝐎𝐒",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "⚡información ⚡",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 66560,
+                                "deny": 1312832
+                            },
+                            {
+                                "roleName": "🧨ADMINISTRADOR🧨",
+                                "allow": 1049600,
+                                "deny": 0
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "『🚨』𝐑𝐄𝐆𝐋𝐀𝐒",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "⚡información ⚡",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 66560,
+                                "deny": 2048
+                            },
+                            {
+                                "roleName": "Novato-BR",
+                                "allow": 1024,
+                                "deny": 2048
+                            },
+                            {
+                                "roleName": "Veterano-BR",
+                                "allow": 1024,
+                                "deny": 2048
+                            },
+                            {
+                                "roleName": "Elite-BR",
+                                "allow": 1024,
+                                "deny": 2048
+                            },
+                            {
+                                "roleName": "Profesional-BR",
+                                "allow": 1024,
+                                "deny": 2048
+                            },
+                            {
+                                "roleName": "Maestro-BR",
+                                "allow": 1024,
+                                "deny": 2048
+                            },
+                            {
+                                "roleName": "Leyenda-BR",
+                                "allow": 1024,
+                                "deny": 2048
+                            },
+                            {
+                                "roleName": "Novato-MJ",
+                                "allow": 1024,
+                                "deny": 2048
+                            },
+                            {
+                                "roleName": "Veterano-MJ",
+                                "allow": 1024,
+                                "deny": 2048
+                            },
+                            {
+                                "roleName": "Elite-MJ",
+                                "allow": 1024,
+                                "deny": 2048
+                            },
+                            {
+                                "roleName": "Profesional-MJ",
+                                "allow": 1024,
+                                "deny": 2048
+                            },
+                            {
+                                "roleName": "Maestro-MJ",
+                                "allow": 1024,
+                                "deny": 2048
+                            },
+                            {
+                                "roleName": "Leyenda-MJ",
+                                "allow": 1024,
+                                "deny": 2048
+                            },
+                            {
+                                "roleName": "Miembros",
+                                "allow": 1024,
+                                "deny": 2048
+                            },
+                            {
+                                "roleName": "🧨ADMINISTRADOR🧨",
+                                "allow": 1024,
+                                "deny": 0
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "『ℹ』𝐈𝐍𝐅𝐎-𝐒𝐄𝐑𝐕𝐄𝐑",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "⚡información ⚡",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 1024,
+                                "deny": 1048576
+                            },
+                            {
+                                "roleName": "Novato-BR",
+                                "allow": 1024,
+                                "deny": 2048
+                            },
+                            {
+                                "roleName": "Veterano-BR",
+                                "allow": 1024,
+                                "deny": 2048
+                            },
+                            {
+                                "roleName": "Elite-BR",
+                                "allow": 1024,
+                                "deny": 2048
+                            },
+                            {
+                                "roleName": "Profesional-BR",
+                                "allow": 1024,
+                                "deny": 2048
+                            },
+                            {
+                                "roleName": "Maestro-BR",
+                                "allow": 1024,
+                                "deny": 2048
+                            },
+                            {
+                                "roleName": "Leyenda-BR",
+                                "allow": 1024,
+                                "deny": 2048
+                            },
+                            {
+                                "roleName": "Novato-MJ",
+                                "allow": 1024,
+                                "deny": 2048
+                            },
+                            {
+                                "roleName": "Veterano-MJ",
+                                "allow": 1024,
+                                "deny": 2048
+                            },
+                            {
+                                "roleName": "Elite-MJ",
+                                "allow": 1024,
+                                "deny": 2048
+                            },
+                            {
+                                "roleName": "Profesional-MJ",
+                                "allow": 1024,
+                                "deny": 2048
+                            },
+                            {
+                                "roleName": "Maestro-MJ",
+                                "allow": 1024,
+                                "deny": 2048
+                            },
+                            {
+                                "roleName": "Leyenda-MJ",
+                                "allow": 1024,
+                                "deny": 2048
+                            },
+                            {
+                                "roleName": "Miembros",
+                                "allow": 1024,
+                                "deny": 2048
+                            },
+                            {
+                                "roleName": "🧨ADMINISTRADOR🧨",
+                                "allow": 1049600,
+                                "deny": 0
+                            }
+                        ],
+                        "messages": [
+                            {
+                                "username": "TutoBot",
+                                "avatar": "https://cdn.discordapp.com/avatars/741314725916180480/8c59ab91fd3385190edf2c6423215ab7.webp",
+                                "content": "",
+                                "embeds": [
+                                    {
+                                        "type": "rich",
+                                        "description": "🟣 **AYUDA TutoBot** 🟣",
+                                        "timestamp": "2020-11-28T15:33:55.783Z",
+                                        "color": 16202911,
+                                        "fields": [
+                                            {
+                                                "name": "t!ayuda",
+                                                "value": "Muestra este **mensaje**.",
+                                                "inline": false
+                                            },
+                                            {
+                                                "name": "t!ping",
+                                                "value": "Muestra el **retraso** que tiene el bot al enviar un mensaje.",
+                                                "inline": false
+                                            },
+                                            {
+                                                "name": "t!web",
+                                                "value": "Muestra la **web** oficial de owner.",
+                                                "inline": false
+                                            },
+                                            {
+                                                "name": "t!invite",
+                                                "value": "Crea una **invitacion** del bot.",
+                                                "inline": false
+                                            },
+                                            {
+                                                "name": "t!botinfo",
+                                                "value": "Muestra la **informacion** del bot.",
+                                                "inline": false
+                                            },
+                                            {
+                                                "name": "t!avatar",
+                                                "value": "Muesta el avatar del **usuario** mencionado.",
+                                                "inline": false
+                                            },
+                                            {
+                                                "name": "t!say",
+                                                "value": "Envia el **mensaje** que quieras.",
+                                                "inline": false
+                                            },
+                                            {
+                                                "name": "t!serverinfo",
+                                                "value": "Da la **informacion** del servidor.",
+                                                "inline": false
+                                            },
+                                            {
+                                                "name": "t!changeprefix",
+                                                "value": "**Cambia el prefix del bot**.",
+                                                "inline": false
+                                            },
+                                            {
+                                                "name": "t!bug",
+                                                "value": "**Reportas un reporte del bot**.",
+                                                "inline": false
+                                            },
+                                            {
+                                                "name": "t!suggest",
+                                                "value": "**Manda una sugerencia**.",
+                                                "inline": false
+                                            },
+                                            {
+                                                "name": "t!userinfo",
+                                                "value": "**Muestra la info del usuario**.",
+                                                "inline": false
+                                            },
+                                            {
+                                                "name": "t!8ball",
+                                                "value": "**Hace respuestas random**.",
+                                                "inline": false
+                                            },
+                                            {
+                                                "name": "t!roleinfo",
+                                                "value": "**Muestra la informacion del rol mencionado**.",
+                                                "inline": false
+                                            },
+                                            {
+                                                "name": "▬▬▬▬▬▬▬▬▬\nEnlaces importantes:",
+                                                "value": "[**Servidor de soporte**](https://discord.gg/5wKCexUjWq)\n[**Añademe a tu servidor**](https://discord.com/oauth2/authorize?client_id=741314725916180480&scope=bot&permissions=8)\n[**Top.gg**](https://top.gg/bot/741314725916180480)",
+                                                "inline": false
+                                            }
+                                        ],
+                                        "thumbnail": null,
+                                        "image": null,
+                                        "author": {
+                                            "name": "Cooky. • 528860743437910016",
+                                            "icon_url": "https://cdn.discordapp.com/avatars/528860743437910016/9218703cdb1128f3df50a4470c8b9025.webp"
+                                        },
+                                        "footer": {
+                                            "text": "🌐 Creado por Cooky#8753"
+                                        }
+                                    }
+                                ],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Cooky.",
+                                "avatar": "https://cdn.discordapp.com/avatars/528860743437910016/9b8db7d6c0d3c56377c17f617842b1e6.webp",
+                                "content": "t!ayuda",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Cooky.",
+                                "avatar": "https://cdn.discordapp.com/avatars/528860743437910016/9b8db7d6c0d3c56377c17f617842b1e6.webp",
+                                "content": "t!ayuda",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Cooky.",
+                                "avatar": "https://cdn.discordapp.com/avatars/528860743437910016/9b8db7d6c0d3c56377c17f617842b1e6.webp",
+                                "content": "t!ayuda",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Cooky.",
+                                "avatar": "https://cdn.discordapp.com/avatars/528860743437910016/9b8db7d6c0d3c56377c17f617842b1e6.webp",
+                                "content": "t!ayuda",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Cooky.",
+                                "avatar": "https://cdn.discordapp.com/avatars/528860743437910016/9b8db7d6c0d3c56377c17f617842b1e6.webp",
+                                "content": "t!ayuda",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            }
+                        ],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "『📢』𝐀𝐍𝐔𝐍𝐂𝐈𝐎𝐒",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "⚡información ⚡",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 66560,
+                                "deny": 1316928
+                            },
+                            {
+                                "roleName": "🧨ADMINISTRADOR🧨",
+                                "allow": 1049600,
+                                "deny": 0
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "『⌛』𝐅𝐈𝐋𝐓𝐑𝐀𝐂𝐈𝐎𝐍𝐄𝐒",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "⚡información ⚡",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 1024,
+                                "deny": 1050624
+                            },
+                            {
+                                "roleName": "Novato-BR",
+                                "allow": 1024,
+                                "deny": 2048
+                            },
+                            {
+                                "roleName": "Veterano-BR",
+                                "allow": 1024,
+                                "deny": 2048
+                            },
+                            {
+                                "roleName": "Elite-BR",
+                                "allow": 1024,
+                                "deny": 2048
+                            },
+                            {
+                                "roleName": "Profesional-BR",
+                                "allow": 1024,
+                                "deny": 2048
+                            },
+                            {
+                                "roleName": "Maestro-BR",
+                                "allow": 1024,
+                                "deny": 2048
+                            },
+                            {
+                                "roleName": "Leyenda-BR",
+                                "allow": 1024,
+                                "deny": 2048
+                            },
+                            {
+                                "roleName": "Novato-MJ",
+                                "allow": 1024,
+                                "deny": 2048
+                            },
+                            {
+                                "roleName": "Veterano-MJ",
+                                "allow": 1024,
+                                "deny": 2048
+                            },
+                            {
+                                "roleName": "Elite-MJ",
+                                "allow": 1024,
+                                "deny": 2048
+                            },
+                            {
+                                "roleName": "Profesional-MJ",
+                                "allow": 1024,
+                                "deny": 2048
+                            },
+                            {
+                                "roleName": "Maestro-MJ",
+                                "allow": 1024,
+                                "deny": 2048
+                            },
+                            {
+                                "roleName": "Leyenda-MJ",
+                                "allow": 1024,
+                                "deny": 2048
+                            },
+                            {
+                                "roleName": "Miembros",
+                                "allow": 1024,
+                                "deny": 2048
+                            },
+                            {
+                                "roleName": "💻  EL FILTRADOR 💻",
+                                "allow": 457792,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "🧨ADMINISTRADOR🧨",
+                                "allow": 1049600,
+                                "deny": 0
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "『📇』𝐑𝐄𝐆-𝐘-𝐑𝐀𝐍𝐆𝐎",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "⚡información ⚡",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 1024,
+                                "deny": 1048576
+                            },
+                            {
+                                "roleName": "Novato-BR",
+                                "allow": 0,
+                                "deny": 2048
+                            },
+                            {
+                                "roleName": "Veterano-BR",
+                                "allow": 0,
+                                "deny": 2048
+                            },
+                            {
+                                "roleName": "Elite-BR",
+                                "allow": 0,
+                                "deny": 2048
+                            },
+                            {
+                                "roleName": "Profesional-BR",
+                                "allow": 0,
+                                "deny": 2048
+                            },
+                            {
+                                "roleName": "Maestro-BR",
+                                "allow": 0,
+                                "deny": 2048
+                            },
+                            {
+                                "roleName": "Leyenda-BR",
+                                "allow": 0,
+                                "deny": 2048
+                            },
+                            {
+                                "roleName": "Novato-MJ",
+                                "allow": 0,
+                                "deny": 2048
+                            },
+                            {
+                                "roleName": "Veterano-MJ",
+                                "allow": 0,
+                                "deny": 2048
+                            },
+                            {
+                                "roleName": "Elite-MJ",
+                                "allow": 0,
+                                "deny": 2048
+                            },
+                            {
+                                "roleName": "Profesional-MJ",
+                                "allow": 0,
+                                "deny": 2048
+                            },
+                            {
+                                "roleName": "Maestro-MJ",
+                                "allow": 0,
+                                "deny": 2048
+                            },
+                            {
+                                "roleName": "Leyenda-MJ",
+                                "allow": 0,
+                                "deny": 2048
+                            },
+                            {
+                                "roleName": "Miembros",
+                                "allow": 1024,
+                                "deny": 2048
+                            },
+                            {
+                                "roleName": "🧨ADMINISTRADOR🧨",
+                                "allow": 1049600,
+                                "deny": 0
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "『🎞』𝐕𝐈𝐃𝐄𝐎𝐒-𝐍𝐔𝐄𝐕𝐎𝐒",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "⚡información ⚡",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 66560,
+                                "deny": 2048
+                            },
+                            {
+                                "roleName": "🧨ADMINISTRADOR🧨",
+                                "allow": 1024,
+                                "deny": 0
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "『🗳』𝐄𝐍𝐂𝐔𝐄𝐒𝐓𝐀𝐒",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "⚡información ⚡",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Novato-BR",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Veterano-BR",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Elite-BR",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Profesional-BR",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Maestro-BR",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Leyenda-BR",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Novato-MJ",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Veterano-MJ",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Elite-MJ",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Profesional-MJ",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Maestro-MJ",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Leyenda-MJ",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Miembros",
+                                "allow": 1024,
+                                "deny": 0
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    }
+                ]
+            },
+            {
+                "name": "❗SUGERENCIAS-Preguntas❓",
+                "permissions": [],
+                "children": [
+                    {
+                        "type": "text",
+                        "name": "『❓』𝐏𝐑𝐄𝐆𝐔𝐍𝐓𝐀𝐒",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "❗SUGERENCIAS-Preguntas❓",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Novato-BR",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Veterano-BR",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Elite-BR",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Profesional-BR",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Maestro-BR",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Leyenda-BR",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Novato-MJ",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Veterano-MJ",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Elite-MJ",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Profesional-MJ",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Maestro-MJ",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Leyenda-MJ",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Miembros",
+                                "allow": 1024,
+                                "deny": 0
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "『❕』𝐒𝐔𝐆𝐄𝐑𝐈𝐑",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "❗SUGERENCIAS-Preguntas❓",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Novato-BR",
+                                "allow": 3072,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Veterano-BR",
+                                "allow": 3072,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Elite-BR",
+                                "allow": 3072,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Profesional-BR",
+                                "allow": 3072,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Maestro-BR",
+                                "allow": 3072,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Leyenda-BR",
+                                "allow": 3072,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Novato-MJ",
+                                "allow": 3072,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Veterano-MJ",
+                                "allow": 3072,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Elite-MJ",
+                                "allow": 3072,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Profesional-MJ",
+                                "allow": 3072,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Maestro-MJ",
+                                "allow": 3072,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Leyenda-MJ",
+                                "allow": 3072,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Miembros",
+                                "allow": 0,
+                                "deny": 3072
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "『❗』𝐒𝐔𝐆𝐄𝐑𝐄𝐍𝐂𝐈𝐀𝐒",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "❗SUGERENCIAS-Preguntas❓",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Novato-BR",
+                                "allow": 1024,
+                                "deny": 2048
+                            },
+                            {
+                                "roleName": "Veterano-BR",
+                                "allow": 1024,
+                                "deny": 2048
+                            },
+                            {
+                                "roleName": "Elite-BR",
+                                "allow": 1024,
+                                "deny": 2048
+                            },
+                            {
+                                "roleName": "Profesional-BR",
+                                "allow": 1024,
+                                "deny": 2048
+                            },
+                            {
+                                "roleName": "Maestro-BR",
+                                "allow": 1024,
+                                "deny": 2048
+                            },
+                            {
+                                "roleName": "Leyenda-BR",
+                                "allow": 1024,
+                                "deny": 2048
+                            },
+                            {
+                                "roleName": "Novato-MJ",
+                                "allow": 1024,
+                                "deny": 2048
+                            },
+                            {
+                                "roleName": "Veterano-MJ",
+                                "allow": 1024,
+                                "deny": 2048
+                            },
+                            {
+                                "roleName": "Elite-MJ",
+                                "allow": 1024,
+                                "deny": 2048
+                            },
+                            {
+                                "roleName": "Profesional-MJ",
+                                "allow": 1024,
+                                "deny": 2048
+                            },
+                            {
+                                "roleName": "Maestro-MJ",
+                                "allow": 1024,
+                                "deny": 2048
+                            },
+                            {
+                                "roleName": "Leyenda-MJ",
+                                "allow": 1024,
+                                "deny": 2048
+                            },
+                            {
+                                "roleName": "Miembros",
+                                "allow": 0,
+                                "deny": 3072
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    }
+                ]
+            },
+            {
+                "name": "📱𝐆𝐄𝐍𝐄𝐑𝐀𝐋📱",
+                "permissions": [],
+                "children": [
+                    {
+                        "type": "text",
+                        "name": "『🌐』𝐂𝐇𝐀𝐓",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "📱𝐆𝐄𝐍𝐄𝐑𝐀𝐋📱",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 1024,
+                                "deny": 268582928
+                            },
+                            {
+                                "roleName": "Novato-BR",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Veterano-BR",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Elite-BR",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Profesional-BR",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Maestro-BR",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Leyenda-BR",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Novato-MJ",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Veterano-MJ",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Elite-MJ",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Profesional-MJ",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Maestro-MJ",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Leyenda-MJ",
+                                "allow": 3072,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Miembros",
+                                "allow": 3072,
+                                "deny": 16384
+                            }
+                        ],
+                        "messages": [
+                            {
+                                "username": "Cooky.",
+                                "avatar": "https://cdn.discordapp.com/avatars/528860743437910016/9b8db7d6c0d3c56377c17f617842b1e6.webp",
+                                "content": "t!nick",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Cooky.",
+                                "avatar": "https://cdn.discordapp.com/avatars/528860743437910016/9b8db7d6c0d3c56377c17f617842b1e6.webp",
+                                "content": "t!nick",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "TutoBot",
+                                "avatar": "https://cdn.discordapp.com/avatars/741314725916180480/8c59ab91fd3385190edf2c6423215ab7.webp",
+                                "content": "No tengo permisos!",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Cooky.",
+                                "avatar": "https://cdn.discordapp.com/avatars/528860743437910016/9b8db7d6c0d3c56377c17f617842b1e6.webp",
+                                "content": "t!nick",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Cooky.",
+                                "avatar": "https://cdn.discordapp.com/avatars/528860743437910016/9b8db7d6c0d3c56377c17f617842b1e6.webp",
+                                "content": "t!rainbowrole @🧨ADMINISTRADOR🧨",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "TutoBot",
+                                "avatar": "https://cdn.discordapp.com/avatars/741314725916180480/8c59ab91fd3385190edf2c6423215ab7.webp",
+                                "content": "",
+                                "embeds": [
+                                    {
+                                        "type": "rich",
+                                        "description": "🟣 **AYUDA TutoBot** 🟣",
+                                        "timestamp": "2020-11-14T10:36:22.595Z",
+                                        "color": 15310005,
+                                        "fields": [
+                                            {
+                                                "name": "t!ayuda",
+                                                "value": "Muestra este **mensaje**.",
+                                                "inline": false
+                                            },
+                                            {
+                                                "name": "t!ping",
+                                                "value": "Muestra el **retraso** que tiene el bot al enviar un mensaje.",
+                                                "inline": false
+                                            },
+                                            {
+                                                "name": "t!web",
+                                                "value": "Muestra la **web** oficial de owen.",
+                                                "inline": false
+                                            },
+                                            {
+                                                "name": "t!invite",
+                                                "value": "Crea una **invitacion** al canal actual.",
+                                                "inline": false
+                                            },
+                                            {
+                                                "name": "t!botinfo",
+                                                "value": "Muestra la **informacion** del bot.",
+                                                "inline": false
+                                            },
+                                            {
+                                                "name": "t!avatar",
+                                                "value": "Muesta el avatar del **usuario** mencionado.",
+                                                "inline": false
+                                            },
+                                            {
+                                                "name": "t!say",
+                                                "value": "Envia el **mensaje** que quieras.",
+                                                "inline": false
+                                            },
+                                            {
+                                                "name": "t!serverinfo",
+                                                "value": "Da la **informacion** del servidor.",
+                                                "inline": false
+                                            },
+                                            {
+                                                "name": "t!changeprefix",
+                                                "value": "**Cambia el prefix del bot**.",
+                                                "inline": false
+                                            },
+                                            {
+                                                "name": "t!bug",
+                                                "value": "**Reportas un reporte del bot**.",
+                                                "inline": false
+                                            },
+                                            {
+                                                "name": "t!suggest",
+                                                "value": "**Manda una sugerencia**.",
+                                                "inline": false
+                                            },
+                                            {
+                                                "name": "t!rainbowrole",
+                                                "value": "**Hace que tu rol cambie de color cada 5 segundos con la id del rol o mencionando el rol.**",
+                                                "inline": false
+                                            },
+                                            {
+                                                "name": "▬▬▬▬▬▬▬▬▬\nEnlaces importantes:",
+                                                "value": "servidor de soporte: https://discord.gg/QxY9k3W\nAñademe a tu servidor: https://discord.com/oauth2/authorize?client_id=741314725916180480&scope=bot&permissions=8",
+                                                "inline": false
+                                            }
+                                        ],
+                                        "thumbnail": null,
+                                        "image": null,
+                                        "author": {
+                                            "name": "Cooky. • 528860743437910016",
+                                            "icon_url": "https://cdn.discordapp.com/avatars/528860743437910016/9218703cdb1128f3df50a4470c8b9025.webp"
+                                        },
+                                        "footer": {
+                                            "text": "🌐 Creado por Cooky#0001"
+                                        }
+                                    }
+                                ],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Cooky.",
+                                "avatar": "https://cdn.discordapp.com/avatars/528860743437910016/9b8db7d6c0d3c56377c17f617842b1e6.webp",
+                                "content": "t!ayuda",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Cooky.",
+                                "avatar": "https://cdn.discordapp.com/avatars/528860743437910016/9b8db7d6c0d3c56377c17f617842b1e6.webp",
+                                "content": "t!ayuda",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            }
+                        ],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "『🃏』𝐌𝐄𝐌𝐄𝐒",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "📱𝐆𝐄𝐍𝐄𝐑𝐀𝐋📱",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Novato-BR",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Veterano-BR",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Elite-BR",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Profesional-BR",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Maestro-BR",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Leyenda-BR",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Novato-MJ",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Veterano-MJ",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Elite-MJ",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Profesional-MJ",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Maestro-MJ",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Leyenda-MJ",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Miembros",
+                                "allow": 1024,
+                                "deny": 131072
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    }
+                ]
+            },
+            {
+                "name": "▓▓▓▓|🎶|『MUSICA』|🎶|▓▓▓▓",
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": 0,
+                        "deny": 3072
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "text",
+                        "name": "『📟』𝐈𝐍𝐅𝐎-𝐂𝐎𝐌𝐀𝐍𝐃𝐎𝐒",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "▓▓▓▓|🎶|『MUSICA』|🎶|▓▓▓▓",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 1024,
+                                "deny": 2048
+                            },
+                            {
+                                "roleName": "Novato-BR",
+                                "allow": 1024,
+                                "deny": 2048
+                            },
+                            {
+                                "roleName": "Veterano-BR",
+                                "allow": 1024,
+                                "deny": 2048
+                            },
+                            {
+                                "roleName": "Elite-BR",
+                                "allow": 1024,
+                                "deny": 2048
+                            },
+                            {
+                                "roleName": "Profesional-BR",
+                                "allow": 1024,
+                                "deny": 2048
+                            },
+                            {
+                                "roleName": "Maestro-BR",
+                                "allow": 1024,
+                                "deny": 2048
+                            },
+                            {
+                                "roleName": "Leyenda-BR",
+                                "allow": 1024,
+                                "deny": 2048
+                            },
+                            {
+                                "roleName": "Novato-MJ",
+                                "allow": 1024,
+                                "deny": 2048
+                            },
+                            {
+                                "roleName": "Veterano-MJ",
+                                "allow": 1024,
+                                "deny": 2048
+                            },
+                            {
+                                "roleName": "Elite-MJ",
+                                "allow": 1024,
+                                "deny": 2048
+                            },
+                            {
+                                "roleName": "Profesional-MJ",
+                                "allow": 1024,
+                                "deny": 2048
+                            },
+                            {
+                                "roleName": "Maestro-MJ",
+                                "allow": 1024,
+                                "deny": 2048
+                            },
+                            {
+                                "roleName": "Leyenda-MJ",
+                                "allow": 1024,
+                                "deny": 2048
+                            },
+                            {
+                                "roleName": "Miembros",
+                                "allow": 1024,
+                                "deny": 2048
+                            },
+                            {
+                                "roleName": "🤖BOSITOS🤖",
+                                "allow": 0,
+                                "deny": 0
+                            }
+                        ],
+                        "messages": [
+                            {
+                                "username": "Cooky.",
+                                "avatar": "https://cdn.discordapp.com/avatars/528860743437910016/9b8db7d6c0d3c56377c17f617842b1e6.webp",
+                                "content": "sdsa",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Cooky.",
+                                "avatar": "https://cdn.discordapp.com/avatars/528860743437910016/9b8db7d6c0d3c56377c17f617842b1e6.webp",
+                                "content": "dsa",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Cooky.",
+                                "avatar": "https://cdn.discordapp.com/avatars/528860743437910016/9b8db7d6c0d3c56377c17f617842b1e6.webp",
+                                "content": "aa",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Cooky.",
+                                "avatar": "https://cdn.discordapp.com/avatars/528860743437910016/9b8db7d6c0d3c56377c17f617842b1e6.webp",
+                                "content": "a",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Cooky.",
+                                "avatar": "https://cdn.discordapp.com/avatars/528860743437910016/9b8db7d6c0d3c56377c17f617842b1e6.webp",
+                                "content": "aa",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Cooky.",
+                                "avatar": "https://cdn.discordapp.com/avatars/528860743437910016/9b8db7d6c0d3c56377c17f617842b1e6.webp",
+                                "content": "aa",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Cooky.",
+                                "avatar": "https://cdn.discordapp.com/avatars/528860743437910016/9b8db7d6c0d3c56377c17f617842b1e6.webp",
+                                "content": "a",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Cooky.",
+                                "avatar": "https://cdn.discordapp.com/avatars/528860743437910016/9b8db7d6c0d3c56377c17f617842b1e6.webp",
+                                "content": "aa",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Cooky.",
+                                "avatar": "https://cdn.discordapp.com/avatars/528860743437910016/9b8db7d6c0d3c56377c17f617842b1e6.webp",
+                                "content": "a",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Cooky.",
+                                "avatar": "https://cdn.discordapp.com/avatars/528860743437910016/9b8db7d6c0d3c56377c17f617842b1e6.webp",
+                                "content": "a",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Cooky.",
+                                "avatar": "https://cdn.discordapp.com/avatars/528860743437910016/9b8db7d6c0d3c56377c17f617842b1e6.webp",
+                                "content": "a",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Cooky.",
+                                "avatar": "https://cdn.discordapp.com/avatars/528860743437910016/9b8db7d6c0d3c56377c17f617842b1e6.webp",
+                                "content": "a",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Cooky.",
+                                "avatar": "https://cdn.discordapp.com/avatars/528860743437910016/9b8db7d6c0d3c56377c17f617842b1e6.webp",
+                                "content": "a",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Cooky.",
+                                "avatar": "https://cdn.discordapp.com/avatars/528860743437910016/9b8db7d6c0d3c56377c17f617842b1e6.webp",
+                                "content": "a",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Cooky.",
+                                "avatar": "https://cdn.discordapp.com/avatars/528860743437910016/9b8db7d6c0d3c56377c17f617842b1e6.webp",
+                                "content": "a",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Cooky.",
+                                "avatar": "https://cdn.discordapp.com/avatars/528860743437910016/9b8db7d6c0d3c56377c17f617842b1e6.webp",
+                                "content": "a",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "TutoBot",
+                                "avatar": "https://cdn.discordapp.com/avatars/741314725916180480/8c59ab91fd3385190edf2c6423215ab7.webp",
+                                "content": "Este servidor no tiene ningun usuario ranklist, se el primero corre!",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Cooky.",
+                                "avatar": "https://cdn.discordapp.com/avatars/528860743437910016/9b8db7d6c0d3c56377c17f617842b1e6.webp",
+                                "content": "t!level",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Cooky.",
+                                "avatar": "https://cdn.discordapp.com/avatars/528860743437910016/9b8db7d6c0d3c56377c17f617842b1e6.webp",
+                                "content": "t!nivel",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            },
+                            {
+                                "username": "Cooky.",
+                                "avatar": "https://cdn.discordapp.com/avatars/528860743437910016/9b8db7d6c0d3c56377c17f617842b1e6.webp",
+                                "content": "a",
+                                "embeds": [],
+                                "files": [],
+                                "pinned": false
+                            }
+                        ],
+                        "isNews": false
+                    },
+                    {
+                        "type": "voice",
+                        "name": "『🤖』𝐁𝐎𝐓║𝐃𝐉-𝐑",
+                        "bitrate": 64000,
+                        "userLimit": 0,
+                        "parent": "▓▓▓▓|🎶|『MUSICA』|🎶|▓▓▓▓",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 1024,
+                                "deny": 2048
+                            },
+                            {
+                                "roleName": "Novato-BR",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Veterano-BR",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Elite-BR",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Profesional-BR",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Maestro-BR",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Leyenda-BR",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Novato-MJ",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Veterano-MJ",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Elite-MJ",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Profesional-MJ",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Maestro-MJ",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Leyenda-MJ",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Miembros",
+                                "allow": 1024,
+                                "deny": 0
+                            }
+                        ]
+                    },
+                    {
+                        "type": "text",
+                        "name": "『🤖』𝐁𝐎𝐓║𝐃𝐉-𝐑",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "▓▓▓▓|🎶|『MUSICA』|🎶|▓▓▓▓",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 3072,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "🤖BOSITOS🤖",
+                                "allow": 0,
+                                "deny": 3072
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    }
+                ]
+            },
+            {
+                "name": "▓▓|🎫『RECLUTAMIENTO』🎫|▓▓",
+                "permissions": [],
+                "children": [
+                    {
+                        "type": "text",
+                        "name": "『🎖』𝐂𝐋𝐀𝐍",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "▓▓|🎫『RECLUTAMIENTO』🎫|▓▓",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 3072,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Novato-BR",
+                                "allow": 3072,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Veterano-BR",
+                                "allow": 3072,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Elite-BR",
+                                "allow": 3072,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Profesional-BR",
+                                "allow": 3072,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Maestro-BR",
+                                "allow": 3072,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Leyenda-BR",
+                                "allow": 3072,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Novato-MJ",
+                                "allow": 3072,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Veterano-MJ",
+                                "allow": 3072,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Elite-MJ",
+                                "allow": 3072,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Profesional-MJ",
+                                "allow": 3072,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Maestro-MJ",
+                                "allow": 3072,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Leyenda-MJ",
+                                "allow": 3072,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Miembros",
+                                "allow": 3072,
+                                "deny": 0
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "text",
+                        "name": "『🏆』𝐓𝐎𝐑𝐍𝐄𝐎",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "▓▓|🎫『RECLUTAMIENTO』🎫|▓▓",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 3072,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Novato-BR",
+                                "allow": 3072,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Veterano-BR",
+                                "allow": 3072,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Elite-BR",
+                                "allow": 3072,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Profesional-BR",
+                                "allow": 3072,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Maestro-BR",
+                                "allow": 3072,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Leyenda-BR",
+                                "allow": 3072,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Novato-MJ",
+                                "allow": 3072,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Veterano-MJ",
+                                "allow": 3072,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Elite-MJ",
+                                "allow": 3072,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Profesional-MJ",
+                                "allow": 3072,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Maestro-MJ",
+                                "allow": 3072,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Leyenda-MJ",
+                                "allow": 3072,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Miembros",
+                                "allow": 3072,
+                                "deny": 147456
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    }
+                ]
+            },
+            {
+                "name": "▓▓|🛩|『Batle✮Royale』|🛩|▓▓",
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": 0,
+                        "deny": 1024
+                    },
+                    {
+                        "roleName": "Miembros",
+                        "allow": 0,
+                        "deny": 1024
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "voice",
+                        "name": "𝐃𝐔𝐎《1⃣》",
+                        "bitrate": 64000,
+                        "userLimit": 2,
+                        "parent": "▓▓|🛩|『Batle✮Royale』|🛩|▓▓",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Novato-BR",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Veterano-BR",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Elite-BR",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Profesional-BR",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Maestro-BR",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Leyenda-BR",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Novato-MJ",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Veterano-MJ",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Elite-MJ",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Profesional-MJ",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Maestro-MJ",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Leyenda-MJ",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Miembros",
+                                "allow": 1024,
+                                "deny": 0
+                            }
+                        ]
+                    },
+                    {
+                        "type": "text",
+                        "name": "𝐂𝐇𝐀𝐓-𝐁𝐑『💬』",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "▓▓|🛩|『Batle✮Royale』|🛩|▓▓",
+                        "topic": "Solo cosas del modo Battle Royale!",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Novato-BR",
+                                "allow": 3072,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Veterano-BR",
+                                "allow": 3072,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Elite-BR",
+                                "allow": 3072,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Profesional-BR",
+                                "allow": 3072,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Maestro-BR",
+                                "allow": 3072,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Leyenda-BR",
+                                "allow": 3072,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Novato-MJ",
+                                "allow": 3072,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Veterano-MJ",
+                                "allow": 3072,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Elite-MJ",
+                                "allow": 3072,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Profesional-MJ",
+                                "allow": 3072,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Maestro-MJ",
+                                "allow": 3072,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Leyenda-MJ",
+                                "allow": 3072,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Miembros",
+                                "allow": 1024,
+                                "deny": 0
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "voice",
+                        "name": "𝐃𝐔𝐎《2⃣》",
+                        "bitrate": 64000,
+                        "userLimit": 2,
+                        "parent": "▓▓|🛩|『Batle✮Royale』|🛩|▓▓",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Novato-BR",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Veterano-BR",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Elite-BR",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Profesional-BR",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Maestro-BR",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Leyenda-BR",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Novato-MJ",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Veterano-MJ",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Elite-MJ",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Profesional-MJ",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Maestro-MJ",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Leyenda-MJ",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Miembros",
+                                "allow": 1024,
+                                "deny": 0
+                            }
+                        ]
+                    },
+                    {
+                        "type": "voice",
+                        "name": "𝐄𝐒𝐂𝐔𝐀𝐃𝐑𝐀 《1⃣》",
+                        "bitrate": 64000,
+                        "userLimit": 4,
+                        "parent": "▓▓|🛩|『Batle✮Royale』|🛩|▓▓",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Novato-BR",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Veterano-BR",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Elite-BR",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Profesional-BR",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Maestro-BR",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Leyenda-BR",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Novato-MJ",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Veterano-MJ",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Elite-MJ",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Profesional-MJ",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Maestro-MJ",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Leyenda-MJ",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Miembros",
+                                "allow": 1024,
+                                "deny": 0
+                            }
+                        ]
+                    },
+                    {
+                        "type": "voice",
+                        "name": "𝐄𝐒𝐂𝐔𝐀𝐃𝐑𝐀 《2⃣》",
+                        "bitrate": 64000,
+                        "userLimit": 4,
+                        "parent": "▓▓|🛩|『Batle✮Royale』|🛩|▓▓",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Novato-BR",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Veterano-BR",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Elite-BR",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Profesional-BR",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Maestro-BR",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Leyenda-BR",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Novato-MJ",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Veterano-MJ",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Elite-MJ",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Profesional-MJ",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Maestro-MJ",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Leyenda-MJ",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Miembros",
+                                "allow": 1024,
+                                "deny": 0
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "▓▓|🆚|『multijugador』|🆚|▓▓",
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": 0,
+                        "deny": 1024
+                    },
+                    {
+                        "roleName": "Miembros",
+                        "allow": 0,
+                        "deny": 1024
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "voice",
+                        "name": "𝐄𝐐𝐔𝐈𝐏𝐎《1⃣》",
+                        "bitrate": 64000,
+                        "userLimit": 5,
+                        "parent": "▓▓|🆚|『multijugador』|🆚|▓▓",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Novato-BR",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Veterano-BR",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Elite-BR",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Profesional-BR",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Maestro-BR",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Leyenda-BR",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Novato-MJ",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Veterano-MJ",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Elite-MJ",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Profesional-MJ",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Maestro-MJ",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Leyenda-MJ",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Miembros",
+                                "allow": 1024,
+                                "deny": 0
+                            }
+                        ]
+                    },
+                    {
+                        "type": "text",
+                        "name": "𝐂𝐇𝐀𝐓-𝐌𝐉『💬』",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "▓▓|🆚|『multijugador』|🆚|▓▓",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Novato-BR",
+                                "allow": 3072,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Veterano-BR",
+                                "allow": 3072,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Elite-BR",
+                                "allow": 3072,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Profesional-BR",
+                                "allow": 3072,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Maestro-BR",
+                                "allow": 3072,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Leyenda-BR",
+                                "allow": 3072,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Novato-MJ",
+                                "allow": 3072,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Veterano-MJ",
+                                "allow": 3072,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Elite-MJ",
+                                "allow": 3072,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Profesional-MJ",
+                                "allow": 3072,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Maestro-MJ",
+                                "allow": 3072,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Leyenda-MJ",
+                                "allow": 3072,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Miembros",
+                                "allow": 1024,
+                                "deny": 0
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false
+                    },
+                    {
+                        "type": "voice",
+                        "name": "𝐄𝐐𝐔𝐈𝐏𝐎《2⃣》",
+                        "bitrate": 64000,
+                        "userLimit": 5,
+                        "parent": "▓▓|🆚|『multijugador』|🆚|▓▓",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Novato-BR",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Veterano-BR",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Elite-BR",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Profesional-BR",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Maestro-BR",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Leyenda-BR",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Novato-MJ",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Veterano-MJ",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Elite-MJ",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Profesional-MJ",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Maestro-MJ",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Leyenda-MJ",
+                                "allow": 1024,
+                                "deny": 0
+                            },
+                            {
+                                "roleName": "Miembros",
+                                "allow": 1024,
+                                "deny": 0
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "others": []
+    },
+    "roles": [
+        {
+            "name": "🧨ADMINISTRADOR🧨",
+            "color": "#2ecc71",
+            "hoist": true,
+            "permissions": 1602223743,
+            "mentionable": true,
+            "position": 18
+        },
+        {
+            "name": "⚡️MODERADORES⚡️",
+            "color": "#e91e63",
+            "hoist": true,
+            "permissions": 306159193,
+            "mentionable": false,
+            "position": 17
+        },
+        {
+            "name": "💻  EL FILTRADOR 💻",
+            "color": "#39ff01",
+            "hoist": true,
+            "permissions": 37199425,
+            "mentionable": false,
+            "position": 16
+        },
+        {
+            "name": "🤖BOSITOS🤖",
+            "color": "#3662ff",
+            "hoist": true,
+            "permissions": 2118123209,
+            "mentionable": false,
+            "position": 15
+        },
+        {
+            "name": "Miembros",
+            "color": "#f1c40f",
+            "hoist": false,
+            "permissions": 1110941249,
+            "mentionable": false,
+            "position": 14
+        },
+        {
+            "name": "Leyenda-MJ",
+            "color": "#ff0000",
+            "hoist": false,
+            "permissions": 37199425,
+            "mentionable": false,
+            "position": 13
+        },
+        {
+            "name": "Maestro-MJ",
+            "color": "#ffaa00",
+            "hoist": false,
+            "permissions": 37199425,
+            "mentionable": false,
+            "position": 12
+        },
+        {
+            "name": "Profesional-MJ",
+            "color": "#fff000",
+            "hoist": false,
+            "permissions": 37199425,
+            "mentionable": false,
+            "position": 11
+        },
+        {
+            "name": "Elite-MJ",
+            "color": "#009752",
+            "hoist": false,
+            "permissions": 37199425,
+            "mentionable": false,
+            "position": 10
+        },
+        {
+            "name": "Veterano-MJ",
+            "color": "#00ffff",
+            "hoist": false,
+            "permissions": 37199425,
+            "mentionable": false,
+            "position": 9
+        },
+        {
+            "name": "Novato-MJ",
+            "color": "#0040ff",
+            "hoist": false,
+            "permissions": 37199425,
+            "mentionable": false,
+            "position": 8
+        },
+        {
+            "name": "Leyenda-BR",
+            "color": "#ff0000",
+            "hoist": false,
+            "permissions": 37199425,
+            "mentionable": false,
+            "position": 7
+        },
+        {
+            "name": "Maestro-BR",
+            "color": "#ffaa00",
+            "hoist": false,
+            "permissions": 37199425,
+            "mentionable": false,
+            "position": 6
+        },
+        {
+            "name": "Profesional-BR",
+            "color": "#fff000",
+            "hoist": false,
+            "permissions": 37199425,
+            "mentionable": false,
+            "position": 5
+        },
+        {
+            "name": "Elite-BR",
+            "color": "#009752",
+            "hoist": false,
+            "permissions": 37199425,
+            "mentionable": false,
+            "position": 4
+        },
+        {
+            "name": "Veterano-BR",
+            "color": "#00ffff",
+            "hoist": false,
+            "permissions": 37199425,
+            "mentionable": false,
+            "position": 3
+        },
+        {
+            "name": "Novato-BR",
+            "color": "#0040ff",
+            "hoist": false,
+            "permissions": 37199425,
+            "mentionable": false,
+            "position": 2
+        }
+    ],
+    "bans": [],
+    "emojis": [
+        {
+            "name": "descarga3",
+            "url": "https://cdn.discordapp.com/emojis/787455121997955072.png"
+        },
+        {
+            "name": "descarga4",
+            "url": "https://cdn.discordapp.com/emojis/787455122006605824.png"
+        }
+    ],
+    "createdTimestamp": 1607814697153,
+    "guildID": "763487231293784066",
+    "id": "787456656526147584"
+}
